@@ -1,6 +1,7 @@
 basic_settings:
+  window_title: Stefano Piva
   site_title: Stefano Piva 🚀
-  favicon_image: /images/favicon.png
+  favicon_image: /images/favicon.ico
 
 header_settings:
   logo_image: 
@@ -16,7 +17,7 @@ menu_settings:
 footer_settings:
   logo_image: 
   logo_width: 100
-  tagline: A beautiful, minimal portfolio Jekyll theme
+  tagline:
 
 hero_settings:
   background_image: /images/bg.svg
@@ -26,7 +27,7 @@ post_settings:
 
 contact_settings:
   email_address: 'stefano.piva9@gmail.com'
-  form_action: 'https://formspree.io/hello@jekyllthemes.io'
+  form_action: 'https://formspree.io/stefano.piva9@gmail.com'
   confirmation_url: '/thanks'
   email_subject: 'Contact form submission'
   send_button_text: 'Get in Touch'
@@ -70,8 +71,8 @@ color_settings:
   error_color: '#D64541'
 
 font_settings:
-  font_embed: '<link href="https://fonts.googleapis.com/css?family=Rubik:400,500,700|Roboto+Mono:300,400,700" rel="stylesheet">'
-  title_font: 'Rubik, sans-serif'
+  font_embed: '<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,700|Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">'
+  title_font: 'Montserrat, sans-serif'
   body_font: '"Roboto Mono", sans-serif'
   regular_weight: 400
   bold_weight: 700
@@ -80,7 +81,7 @@ font_settings:
     medium_size: 40
     large_size: 45
     weight: 700
-    letter_spacing: -0.02
+    letter_spacing: -0.03
   menu:
     small_size: 30
     medium_size: 15
@@ -179,7 +180,7 @@ font_settings:
 
 advanced_settings:
   ajax_loading: true
-  analytics_code: ""
-  custom_styles: ""
-  header_js: ""
-  footer_js: ""
+  analytics_code:
+  custom_styles:
+  header_js:
+  footer_js:

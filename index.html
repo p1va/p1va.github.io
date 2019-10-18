@@ -2,7 +2,7 @@
 layout: default
 overtitle: Glad you asked,
 title: I did a bunch of apps
-description: Show off your best work with this beautiful, minimal and customizable portfolio theme.
+description: And a couple of other things...
 featured_image: /images/social.jpg
 ---
 
@@ -34,20 +34,22 @@ featured_image: /images/social.jpg
 			{% if project.accent_color %}{% capture accent_color %}{{ project.accent_color }}{% endcapture %}{% endif %}
 
 			<article class="project__preview">
-				<h3 class="project__title"><a href="{{ project.url }}" style="--accent: {{ accent_color }}">{{ project.title }}</a></h3>
+				<h3 class="project__title"><a href="{{ project.link }}" style="--accent: {{ accent_color }}">{{ project.title }}</a></h3>
 
 				<div class="project__images owl-carousel" style="--accent: {{ accent_color }}">
 					{% for image in project.gallery_images %}
-					<a href="{{ project.url }}"><img src="/images/projects/{{ image }}" alt="" class="project__image"></a>
+					<a href="{{ project.link }}"><img src="/images/projects/{{ image }}" alt="" class="project__image"></a>
 					{% endfor %}
 				</div>
 
 				<div class="project__content grid" style="border-color: {{ accent_color }}">
 					<p class="project__subtitle subtitle--light">{{ project.subtitle }}</p>
 					<p class="project__description --small">
-						{{ project.description }}
-						<a href="{{ project.url }}" class="project__link button--text --right"
-							style="color: {{ accent_color }}; --color-var: {{ accent_color }}">View Case Study</a>
+						<!--
+							{{ project.description }}
+						-->
+						<a href="{{ project.link }}" class="project__link button--text --right"
+							style="color: {{ accent_color }}; --color-var: {{ accent_color }}">Download</a>
 					</p>
 				</div>
 			</article>
